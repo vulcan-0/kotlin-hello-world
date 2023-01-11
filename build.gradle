@@ -28,7 +28,7 @@ compileTestKotlin {
 }
 
 application {
-    mainClassName = 'AppKt'
+    mainClassName = 'org.vc121.light.AppKt'
 }
 
 jar {
