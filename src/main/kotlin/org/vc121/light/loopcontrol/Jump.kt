@@ -23,6 +23,8 @@ fun main(args: Array<String>) {
     foo2()
     foo3()
     foo4()
+
+    // return@a 1，疑问：哪种场景下需要这样返回？
 }
 
 // 直接返回
