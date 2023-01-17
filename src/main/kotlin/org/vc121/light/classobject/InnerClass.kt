@@ -21,6 +21,9 @@ class Outer2 {
 
 }
 
+/**
+ * 内部类
+ */
 fun main(args: Array<String>) {
     val demo = Outer2().Inner().foo()
     println(demo) // 输出 1

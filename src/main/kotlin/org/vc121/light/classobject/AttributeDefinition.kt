@@ -30,6 +30,9 @@ class Person {
 
 }
 
+/**
+ * 属性定义
+ */
 fun main(args: Array<String>) {
     var person: Person = Person() // Kotlin 中没有 new 关键字
 

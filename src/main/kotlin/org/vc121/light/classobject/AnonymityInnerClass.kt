@@ -32,6 +32,9 @@ interface TestInterface {
 
 }
 
+/**
+ * 匿名内部类
+ */
 fun main(args: Array<String>) {
     var test = Test()
 
