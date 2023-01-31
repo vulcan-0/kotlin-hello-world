@@ -3,7 +3,9 @@ package org.vc121.light.delegated.standard
 import kotlin.properties.Delegates
 
 class Foo {
+
     var notNullBar: String by Delegates.notNull<String>()
+
 }
 
 fun main(args: Array<String>) {
